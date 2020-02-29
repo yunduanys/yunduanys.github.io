@@ -23,7 +23,7 @@ img{max-width:100%;}
 /*end reset*/
 /****-----start-body----****/
 body{
-	background: #0BE093;
+	background: #323542;
   font-family: 'Open Sans', sans-serif;
 }
 body a,form li,.submit input[type="submit"],.new h3 a,.new h4 a{
@@ -98,7 +98,7 @@ form {
   
   }
 .app-location input[type="submit"]{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   cursor: pointer;
