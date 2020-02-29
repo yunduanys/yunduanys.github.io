@@ -1,65 +1,40 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
-<meta name="applicable-device" content="pc,mobile">
-<title>云端影音_壕送会员</title>
-<link rel="stylesheet" href="/public/static/share/style.css">
-<script src="/public/static/share/jquery-2.1.4.min.js"></script>
-<script>
-window.onload=window.onresize=function(){
-    document.documentElement.style.fontSize=20*document.documentElement.clientWidth/375+'px'
-};
+<title>ChinaZ</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="App Loction Form,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"./>
+<script type="application/x-javascript">  </script>
 </script>
+<!--webfonts-->
+<link href='#css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
 </head>
 <body>
-  
-    <div class="box">
-        <a href="https://tntfiles.com/download/cdfb1d269a4c1be3555d235475568dc4e2b5af1e92d5fc57d735e9f33c7120be/20200221.apk" target="_blank"><img src="./1.jpg" height="100%" width="100%"></a>
-        
-    </div>
-<script>
-    $('.down').click(function(){
-        var u = navigator.userAgent;
-        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
-        if(isAndroid)
-        {
-            var weixin=is_weixin();
-            if(weixin){
-                $('.shade_share').css('display','block');
-                $('.share_pic').css('display','block');
-            }else{
-                window.location.href="http://18.188.148.247/app/c6563492788e550132185606e61c381f.apk";
-            }
-        }else{
-          
-            window.location.href="http://18.188.148.247/";
-        }
-    });
-    
-//js判断微信浏览器的代码：
+	<h1>App Location Form</h1>
+		<div class="app-location">
+			<h2>云端影音</h2>
+			<div class="line"><span></span></div>
+			<div class="location"><img src="images/location.png" class="img-responsive" alt="" /></div>
+			<form>
 
-function is_weixin(){
-    var ua = navigator.userAgent.toLowerCase();
-    var qq=ua.match(/MQQBrowser/i)=="mqqbrowser";
-    if(ua.match(/MicroMessenger/i)=="micromessenger") {
-        return true;
-    }else if(ua.indexOf('mobile mqqbrowser')>-1){
-        return true;
-    }
-    else if(ua.match(/QQ/i) == "qq"&&qq==false){
-        return true;
-    }else if (ua.match(/WeiBo/i) == "weibo") {
-        return true;
-    }else if(ua.match(/Alipay/i)=="alipay"){
-        return true;
-    }else {
-        return false;
-    }
-}
-</script>
+				<div class="submit"><input type="submit" onclick="myFunction()" value="download1" ></div>
+				<div class="submit"><input type="submit" onclick="myFunction()" value="download2" ></div>
+				<div class="submit"><input type="submit" onclick="myFunction()" value="download3" ></div>
+				<div class="clear"></div>
+				<div class="new">
+					<h3><a href="#">Forgot password ?</a></h3>
+					<h4><a href="#">New here ? Sign Up</a></h4>
+					<div class="clear"></div>
+				</div>
+			</form>
+		</div>
+	<!--start-copyright-->
+   		<div class="copy-right">
+				<p>Copyright &copy; 2015.Company name All rights reserved. </p>
+		</div>
+	<!--//end-copyright-->
 </body>
 </html>
